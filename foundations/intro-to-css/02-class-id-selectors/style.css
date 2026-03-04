@@ -1,1 +1,28 @@
 /* Add CSS Styling */
+.number-1 {
+    background-color: rgba(220, 107, 120, 0.733);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+    
+}
+
+div {
+    color: blue;
+    font-size: 36px;
+}
+
+#number-4 {
+    background-color: rgb(105, 201, 105);
+    font-size: 24px;
+    font-weight: bolder;
+    color: black;
+
+}
+
+.number-5 {
+    background-color: rgba(220, 107, 120, 0.733);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+
+}
+
+
+ 
