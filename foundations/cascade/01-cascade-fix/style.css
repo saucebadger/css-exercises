@@ -5,10 +5,10 @@ body {
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
-  font-weight: 800;
+  font-weight: 800; font-weight: bold;
 }
 
-.small-para {
+.para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
@@ -17,26 +17,30 @@ body {
   font-size: 22px;
 }
 
-.confirm {
+.button.confirm {
   background: green;
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: bold;
+  text-decoration-color: white; 
+  border: 2px solid black;
+  font-size: 20px;
 } 
 
-.button {
-  background-color: rgb(255, 255, 255);
+.button.cancel {
+  background-color: rgba(255, 255, 255, 0.618);
   color: rgb(0, 0, 0);
   font-size: 20px;
+  border: 2px solid black;
 }
 
-.child {
+.text.child {
   color: rgb(0, 0, 0);
-  font-weight: 800;
+  font-weight: bold;
   font-size: 14px;
 }
 
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
-  font-weight: 100;
+  font-weight:lighter
 }
